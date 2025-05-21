@@ -44,103 +44,152 @@ ProposalPilot is an AI-powered web platform that simplifies the process of respo
 ## 📦 Installation
 
 ### 🔧 Backend (FastAPI)
-bash
+```bash
 cd ProposalPilot-Backend
 python -m venv venv
 source venv/bin/activate  # on Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
-🌐 Frontend (React)
-bash
-Copy
-Edit
+```
+
+### 🌐 Frontend (React)
+```bash
 cd ProposalPilot-Frontend
 npm install
 npm run dev
-☁️ Deployment
-Frontend: Vercel
+```
 
-Backend: AWS EC2 / Render / DigitalOcean
+### ☁️ Deployment
 
-Database: MongoDB Atlas
+| Component     | Platform/Service               |
+|---------------|-------------------------------|
+| Frontend      | Vercel                        |
+| Backend       | AWS EC2 / Render / DigitalOcean |
+| Database      | MongoDB Atlas                 |
+| Domain & SSL  | GoDaddy / Cloudflare          |
 
-Domain/SSL: GoDaddy / Cloudflare
+---
 
-🖼️ System Architecture
-css
-Copy
-Edit
-[ User ]
-   ⬇️ Upload
-[ React Frontend (Vite, Tailwind) ]
-   ⬇️ API Calls
-[ FastAPI Backend ]
-   ⬇️
-[ LangChain + Groq LLM ]
-   ⬇️
-[ MongoDB Atlas (Storage) ]
-🚀 Usage
-Start both backend and frontend servers.
+### 🖼️ System Architecture
 
-Open the browser at http://localhost:3000.
+<pre>
+👤 User
+  ↓ Uploads Documents
+   
+🌐 React Frontend (Vite + TailwindCSS)
+  ↓ Sends API Requests
+   
+⚙️ FastAPI Backend
+  ↓ Processes & Integrates with
+   
+🧠 LangChain + Groq LLM
+  ↓ Stores / Fetches Data
+   
+🗄️ MongoDB Atlas (Cloud Database)
+</pre>
 
-Upload your RFP and proposal documents.
+---
+### 📸 UI Screenshots & 🎥 Demonstration
 
-View the analysis and download reports.
+#### 🔍 Interface Previews
 
-Optionally, ask questions using the AI chat assistant.
+#### Home Page  
+![Home Page](./assets/homepage.png)
 
-📌 Functional Requirements
-Upload and parse documents (PDF/DOCX).
+#### Uploading RFP Document and Analyzing  
+![Uploading and Analyzing](./assets/upload_analyze.png)
 
-NLP-powered compliance gap detection.
+#### Dashboard of Uploaded RFP  
+![Dashboard](./assets/dashboard.png)
 
-Download analysis reports.
+#### Compliance Check for Individual  
+![Compliance Check](./assets/compliance_check.png)
 
-Real-time feedback and interactive visualizations.
+#### Analysis Forms or Attachments in Document  
+![Analysis Forms](./assets/analysis_forms.png)
 
-🔒 Non-Functional Requirements
-High security with JWT auth.
+#### Submission Requirements  
+![Submission Requirements](./assets/submission_requirements.png)
 
-Responsive UI for mobile and desktop.
+#### Risk Analysis  
+![Risk Analysis](./assets/risk_analysis.png)
 
-High availability (99.9% uptime).
+---
 
-Scalable backend handling multiple users/documents.
+#### ▶️ Demo Video
 
-🧭 Future Enhancements
-✅ Real-time team collaboration & annotations
+Watch the full walkthrough of ProposalPilot in action:
 
-🤖 Smart auto-generated proposal sections
+[![Watch Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
-📁 Integration with Google Drive / SharePoint
+---
 
-📊 Enhanced analytics dashboards (e.g., success scores)
+### 🚀 Usage
 
-🌐 Multi-language document support
+1. Start both **backend** and **frontend** servers.
+2. Open your browser at: [http://localhost:3000](http://localhost:3000)
+3. Upload your RFP and proposal documents.
+4. View the analysis and download insightful reports.
+5. Optionally, interact with the **AI chat assistant** for deeper insights.
 
-👩‍💻 Team Members
-Name	            
-Akshada Mane : https://github.com/AkshadaMane26
-Manasi Bharati	
+---
 
-Project Guide: Dr. L. A. Bewoor
-Institution: Vishwakarma Institute of Information Technology, Pune
+### 📌 Functional Requirements
 
-📚 References
-AI RFP Response Automation - Addepto
+- 📄 Upload and parse documents (PDF, DOCX)
+- 🧠 NLP-powered compliance gap detection
+- 📥 Download detailed analysis reports
+- 📊 Real-time feedback and interactive visualizations
 
-Gap Analysis Automation – VisibleThread
+---
 
-Evaluating AI for Federal RFP Proposal Writing – GovBrief
+### 🔒 Non-Functional Requirements
 
-Research proposal content extraction using NLP
+- 🔐 High security using JWT authentication
+- 📱 Responsive UI (mobile + desktop)
+- 🕒 99.9% uptime for high availability
+- ⚙️ Scalable backend supporting multiple users/documents
 
-📄 License
-This project is licensed under the MIT License. See LICENSE file for details.
+---
 
-Empowering smarter, faster RFP responses with AI.
+### 🧭 Future Enhancements
 
+- ✅ Real-time team collaboration & annotations
+- 🤖 Smart auto-generated proposal sections
+- 📁 Integration with Google Drive / SharePoint
+- 📊 Advanced analytics dashboards (e.g., success scoring)
+- 🌐 Multi-language document support
+
+---
+
+### 👩‍💻 Team Members
+
+| Name            | GitHub Profile                          |
+|------------------|-----------------------------------------|
+| Manasi Bharati   | [Manasi0304](https://github.com/Manasi0304) |
+| Akshada Mane     | [AkshadaMane26](https://github.com/AkshadaMane26) |
+
+#### 🎓 Project Guide: Dr. L. A. Bewoor  
+**Institution:** Vishwakarma Institute of Information Technology, Pune
+
+---
+
+### 📚 References
+
+- **AI RFP Response Automation** – Addepto  
+- **Gap Analysis Automation** – VisibleThread  
+- **Evaluating AI for Federal RFP Proposal Writing** – GovBrief  
+- **Research proposal content extraction using NLP**
+
+---
+
+### 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for more details.
+
+---
+
+> _Designed to transform the way RFP responses are crafted – faster, smarter, and more accurate using AI._
 
 
 ---
