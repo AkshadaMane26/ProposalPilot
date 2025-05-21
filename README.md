@@ -94,25 +94,27 @@ npm run dev
 #### 🔍 Interface Previews
 
 #### Home Page  
-![Home Page](./assets/homepage.png)
+![Home Page](ProposalPilot-Frontend/assets/HomePage1.png)  
+![Home Page](ProposalPilot-Frontend/assets/HomePage2.png)
 
 #### Uploading RFP Document and Analyzing  
-![Uploading and Analyzing](./assets/upload_analyze.png)
+![Uploading and Analyzing](ProposalPilot-Frontend/assets/Upload_RFP.png)
 
 #### Dashboard of Uploaded RFP  
-![Dashboard](./assets/dashboard.png)
+![Dashboard](ProposalPilot-Frontend/assets/Dashboard.png)
 
 #### Compliance Check for Individual  
-![Compliance Check](./assets/compliance_check.png)
+![Compliance Check](ProposalPilot-Frontend/assets/Compliance.png)
 
 #### Analysis Forms or Attachments in Document  
-![Analysis Forms](./assets/analysis_forms.png)
+![Analysis Forms](ProposalPilot-Frontend/assets/AnalysisForms.png)
 
 #### Submission Requirements  
-![Submission Requirements](./assets/submission_requirements.png)
+![Submission Requirements](ProposalPilot-Frontend/assets/Submission.png)
 
 #### Risk Analysis  
-![Risk Analysis](./assets/risk_analysis.png)
+![Risk Analysis](ProposalPilot-Frontend/assets/Risk.png)
+
 
 ---
 
