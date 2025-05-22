@@ -3,6 +3,13 @@
 ProposalPilot is an AI-powered web platform that simplifies the process of responding to complex Requests for Proposals (RFPs). By leveraging advanced NLP models and modern web technologies, the system automatically compares RFP documents against proposal responses, identifies compliance gaps, and provides actionable insights.
 
 ---
+#### ▶️ Demo Video
+
+Watch the full walkthrough of ProposalPilot in action:
+
+👉 [Watch Demo](https://drive.google.com/file/d/1sKN1JcpVq-OmuQ_Kuzt8G7I4Rw9P2r0j/view?usp=sharing)
+
+---
 
 ## 🧠 Key Features
 
@@ -115,14 +122,6 @@ npm run dev
 #### Risk Analysis  
 ![Risk Analysis](ProposalPilot-Frontend/assets/Risk.png)
 
-
----
-
-#### ▶️ Demo Video
-
-Watch the full walkthrough of ProposalPilot in action:
-
-👉 [Watch Demo](https://drive.google.com/file/d/1sKN1JcpVq-OmuQ_Kuzt8G7I4Rw9P2r0j/view?usp=sharing)
 
 ---
 
