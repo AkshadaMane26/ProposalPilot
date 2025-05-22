@@ -122,7 +122,7 @@ npm run dev
 
 Watch the full walkthrough of ProposalPilot in action:
 
-[![Watch Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+👉 [Watch Demo](https://drive.google.com/file/d/1sKN1JcpVq-OmuQ_Kuzt8G7I4Rw9P2r0j/view?usp=sharing)
 
 ---
 
